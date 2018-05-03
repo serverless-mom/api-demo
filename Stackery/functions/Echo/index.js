@@ -8,7 +8,8 @@ module.exports = async request => {
   // Build a response.
   let responseBody = `
     <h4>You sent the following message:</h4>
-    <p>${message}</p>
+    <p><strong>${message}</strong></p>
+    <p>so thanks for that!</p>
   `;
 
   let response = {
